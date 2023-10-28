@@ -4,13 +4,13 @@
 }
 
 .checklist li{
-    background-image: url("../images/unchecked.png");
+    background-image: url("../images/unchecked2 - kopie.png");
     background-repeat: no-repeat;
     padding-left: 25px;
 }
 
 .checklist li.checked{
-    background-image: url("../images/checked.png");
+    background-image: url("../images/checked2 - kopie.png");
     background-repeat: no-repeat;
     padding-left: 25px;
 }
