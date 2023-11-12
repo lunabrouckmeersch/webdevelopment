@@ -1,0 +1,54 @@
+body {
+    margin: 0 auto;
+    background-color: lightgray;
+    font-family: Verdana, sans-serif;
+    width: 50%;
+    text-align: center;
+    border: solid pink;
+}
+
+header {
+    background-color: cadetblue;
+    text-align: center;
+    color: white;
+    padding: 3px;
+}
+
+h2  {
+    font-size: 18px;
+    color: white;
+    background-color: lightpink;
+    margin: 0 auto;
+}
+section > ul {
+    background-color: white;
+    color: pink;
+    text-align: left;
+    list-style-image: url("../images/star - kopie.png");
+}
+
+section {
+    background-color: white;
+}
+a:hover {
+    text-decoration: underline;
+    color: pink;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 0px;
+    background-color: white;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+th {
+    background-color: #333;
+    color: #fff;
+}
