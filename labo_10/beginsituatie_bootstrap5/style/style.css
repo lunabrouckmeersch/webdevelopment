@@ -1,2 +1,17 @@
+.grijs
+{
+    background-color: grey;
+}
 
+.lichtgrijs
+{
+    background-color: lightgrey;
+}
+
+div[class*="col"]
+{
+    height: 200px;
+    border: solid white 5px;
+    box-sizing: border-box;
+}
 
