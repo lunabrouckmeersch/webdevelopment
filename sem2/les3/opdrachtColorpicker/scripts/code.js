@@ -1,8 +1,8 @@
 const setup = () => {
-	let rood = document.getElementsByClassName("red");
-	let groen = document.getElementsByClassName("green");
-	let blauw = document.getElementsByClassName("blue");
-	let kleurdoos = document.getElementsByClassName("kleur");
+	let rood = document.getElementById("redText");
+	let groen = document.getElementById("greenText");
+	let blauw = document.getElementById("blueText");
+	let kleurdoos = document.getElementById("kleur");
 
 	rood[0].addEventListener("change", update)
 	rood[0].addEventListener("input", update)
