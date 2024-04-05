@@ -1,0 +1,6 @@
+#speelveld {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 5px;
+    width: 50%;
+}
