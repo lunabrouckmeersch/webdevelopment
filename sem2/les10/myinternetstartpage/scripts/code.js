@@ -23,18 +23,22 @@ const proces = () => {
             const urlGoogle = "https://www.google.com/search?q=" + zoek;
             window.open(urlGoogle);
             createCard("Google", urlGoogle, zoek);
+            historyAdd("Google", urlGoogle, zoek);
         } else if (prefix === "y") {
             const urlYoutube = "https://www.youtube.com/results?search_query=" + zoek;
             window.open(urlYoutube);
             createCard("YouTube", urlYoutube, zoek);
+            historyAdd("YouTube", urlYoutube, zoek);
         } else if (prefix === "t") {
             const urlTwitter = "https://twitter.com/hashtag/" + zoek;
             window.open(urlTwitter);
             createCard("Twitter", urlTwitter, zoek);
+            historyAdd("Twitter", urlTwitter, zoek);
         } else if (prefix === "i") {
             const urlInstagram = "https://www.instagram.com/explore/tags/" + zoek;
             window.open(urlInstagram);
             createCard("Instagram", urlInstagram, zoek);
+            historyAdd("Instagram", urlInstagram, zoek);
         } else {
             alert("Unknown command prefix");
         }
